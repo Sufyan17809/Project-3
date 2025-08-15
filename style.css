@@ -1,0 +1,406 @@
+.free-del {
+  text-align: center;
+  background-color: #1bbfdd;
+  color: white;
+  padding: 5px;
+}
+.free-del span {
+  font-weight: 500;
+}
+.mic {
+  left: 380px;
+  top: 28px;
+}
+.search-1 {
+  left: 50px;
+  padding: 10px 40px;
+  background-color: #dde6ff;
+}
+.glass {
+  left: 160px;
+  top: 28px;
+}
+.navbar-1 {
+  margin-left: 60px;
+}
+.icon {
+  left: 800px;
+  top: 20px;
+  gap: 20px;
+}
+.navbar-2 {
+  background-color: #04257e;
+}
+.nav-link {
+  color: white;
+  margin: 0px 30px;
+  letter-spacing: 1px;
+}
+.active {
+  color: white !important;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+/* .navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: space-around;
+} */
+.ban-4 {
+  width: 100%;
+}
+.sect-1 {
+  background-color: #e7ffd7;
+  height: 50vh;
+}
+.row-1 {
+  padding-top: 50px;
+}
+.cont-1 img {
+  width: 100px;
+}
+.para,
+.head-1 {
+  color: #045a7c;
+  margin-bottom: 40px;
+}
+.head-1 {
+  margin-bottom: 50px;
+}
+
+.marquee {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a0efbb;
+  padding: 10px;
+}
+marquee {
+  width: 100%;
+}
+.head-2 {
+  color: #045a7c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-title {
+  font-size: 16px;
+  text-align: center;
+}
+.tax {
+  margin-bottom: 30px;
+}
+.sect-2 .card {
+  width: 17rem;
+  height: 505px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+}
+.cut {
+  text-decoration: line-through;
+}
+.tax {
+  text-align: center;
+  margin-top: -18px;
+}
+.cart {
+  padding: 8px 60px;
+  color: white;
+  font-weight: 700;
+  background-color: rgb(107, 191, 254);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.star {
+  color: gold;
+}
+.msg {
+  color: lightgreen;
+}
+.cart-but {
+  text-align: center;
+}
+.percent span {
+  padding: 0px 10px;
+  background-color: #a0efbb;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.sect-3 {
+  height: 50vh;
+  background-color: #a0efbb;
+}
+.row-2 {
+  padding-top: 60px;
+}
+.smile img {
+  width: 70px;
+}
+.smile p {
+  width: 50%;
+  font-size: 18px;
+  color: #045a7c;
+  font-weight: 500;
+}
+.sect-3 h2 {
+  color: #045a7c;
+}
+.sect-2 {
+  margin-bottom: 20px;
+}
+.head-3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #045a7c;
+}
+.detail {
+  background-color: #3869f2;
+  width: 360px;
+  height: 80px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.content h4 {
+  color: white;
+  font-weight: 700;
+}
+.shop {
+  text-decoration: none;
+  color: #04257e;
+  font-weight: 600;
+  background-color: white;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+.tooth {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 360px;
+}
+.slid {
+  margin-top: 0px;
+}
+.cart-1 {
+  padding: 10px 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #830c0c;
+  font-size: 50px;
+  visibility: hidden;
+}
+.slid:hover .slick-next:before {
+  visibility: visible;
+}
+.slid:hover .slick-prev:before {
+  visibility: visible;
+}
+.slid-sec button {
+  right: 0;
+  left: auto;
+  z-index: 999;
+}
+.slick-prev:before {
+  margin-left: -10px;
+  position: absolute;
+  margin-top: 42px;
+}
+.row-3,
+.row-5 {
+  margin-top: 50px;
+}
+.sect-5 {
+  background-color: #a9e1e6;
+}
+.cont-3 {
+  padding-top: 20px;
+  margin-top: 100px;
+}
+.cont-3 h1 {
+  color: #045a7c;
+}
+.marqq {
+  margin-top: 50px;
+}
+.marqq img {
+  width: 250px;
+  height: 70px;
+  object-fit: contain;
+}
+.sect-5 {
+  height: 50vh;
+}
+.sect-5 marquee {
+  margin-top: 30px;
+}
+.sect-6 {
+  background-color: #006992;
+  height: 100vh;
+}
+.sect-6 h1 {
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+.sect-4 .card {
+  margin: 5px;
+}
+.sect-7 .card {
+  margin: 5px;
+}
+.message {
+  height: 370px;
+  width: 600px;
+  background-color: white;
+  border-radius: 30px;
+  margin: auto;
+}
+.fa-quote-left {
+  font-size: 50px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.p-msg {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 18px;
+}
+.star-1 {
+  margin-top: 60px;
+  font-size: 12px;
+}
+.person {
+  margin-top: 60px;
+}
+.carousel-inner p {
+  color: black;
+}
+.carousel-indicators {
+  position: relative;
+  top: 430px;
+}
+.sect-8 {
+  background-color: #e7ffd7;
+  height: auto;
+}
+.card-1 {
+  border-radius: 20px;
+  height: 550px;
+  border: none;
+}
+.card-title-1 {
+  font-size: 18px;
+  text-align: left;
+}
+.card-1 img {
+  height: 250px;
+  border-radius: 25px;
+}
+.text-1 {
+  font-size: 13px;
+}
+.sect-8 {
+  padding-bottom: 30px;
+}
+.sect-9 {
+  height: auto;
+  background-color: rgb(11 42 103);
+}
+.sect-9 .cont-5 {
+  padding-top: 60px;
+  border-bottom: 1px solid white;
+  padding-bottom: 90px;
+}
+.sect-9 p {
+  color: white;
+}
+.sect-9 h5 {
+  color: white;
+}
+.sect-9 p {
+  margin-top: 40px;
+}
+.sign-up {
+  color: white;
+  font-weight: 700;
+  background-color: #1bbfdd;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 30px;
+}
+.spam {
+  display: flex;
+  flex-direction: column;
+}
+.spam span {
+  color: white;
+  line-height: 40px;
+  cursor: pointer;
+}
+.spam span:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.certificate {
+  width: 50px;
+}
+.comp {
+  font-size: 12px;
+}
+.pay {
+  width: 300px;
+}
+.sect-8 h1 {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.fa-plus {
+  font-size: 20px;
+  font-weight: 900;
+}
+.car-text {
+  color: white;
+  position: absolute;
+  top: 100px;
+  margin-left: 60px;
+}
+.car-text h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.car-text p {
+  font-size: 26px;
+  color: white;
+}
+.shop-now {
+  padding: 6px 20px;
+  border-radius: 30px;
+  background-color: #04257e;
+  color: white;
+  border: none;
+  margin-top: 300px;
+}
+.aimdr {
+  font-size: 12px !important;
+}

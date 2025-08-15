@@ -1,0 +1,215 @@
+.free-del {
+  text-align: center;
+  background-color: #1bbfdd;
+  color: white;
+  padding: 5px;
+}
+.free-del span {
+  font-weight: 500;
+}
+.mic {
+  left: 380px;
+  top: 28px;
+}
+.search-1 {
+  left: 50px;
+  padding: 10px 40px;
+  background-color: #dde6ff;
+}
+.glass {
+  left: 160px;
+  top: 28px;
+}
+.navbar-1 {
+  margin-left: 60px;
+}
+.icon {
+  left: 800px;
+  top: 20px;
+  gap: 20px;
+}
+.navbar-2 {
+  background-color: #04257e;
+}
+.nav-link {
+  color: white;
+  margin: 0px 30px;
+  letter-spacing: 1px;
+}
+.active {
+  color: white !important;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+.sect-9 {
+  height: auto;
+  background-color: rgb(11 42 103);
+  padding-top: 30px;
+}
+.sect-9 .container {
+  padding-top: 0px;
+  border-bottom: 1px solid white;
+}
+.sect-9 p {
+  color: white;
+}
+.sect-9 h5 {
+  color: white;
+}
+.sect-9 p {
+  margin-top: 40px;
+}
+.sign-up {
+  color: white;
+  font-weight: 700;
+  background-color: #1bbfdd;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 30px;
+}
+.spam {
+  display: flex;
+  flex-direction: column;
+}
+.spam span {
+  color: white;
+  line-height: 40px;
+  cursor: pointer;
+}
+.spam span:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.certificate {
+  width: 50px;
+}
+.comp {
+  font-size: 12px;
+}
+.pay {
+  width: 300px;
+}
+.sect-10 {
+  margin-bottom: 40px;
+}
+.blog-1 {
+  font-size: 52px;
+  margin-top: 50px;
+}
+.share {
+  margin-top: 20px;
+}
+.share span {
+  font-size: 18px;
+}
+.pink-img {
+  width: 100%;
+  height: 400px;
+}
+.pink {
+  height: 400px;
+}
+.pink-content h2 {
+  font-size: 30px;
+}
+.pink-row {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #dde6ff;
+  padding: 0px;
+  margin: auto;
+}
+.teeth-img {
+  padding: 0px;
+}
+.pink-content p {
+  font-size: 16px;
+}
+.arrow {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 30px;
+}
+.fa-arrow-right {
+  margin-top: 30px;
+}
+.share {
+  margin-bottom: 50px;
+}
+.section-1 {
+  margin-top: 100px;
+}
+.card {
+  width: 351px;
+  border: none;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.card {
+  margin-bottom: 30px;
+}
+@media (max-width: 375px) {
+  .navbar-1 {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-1 {
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .pay {
+    width: 190px;
+  }
+  .comp {
+    font-size: 10px;
+  }
+  .row-2 {
+    margin-top: 20px;
+  }
+  .content-1 {
+    margin-top: 20px;
+  }
+  .sect-2 {
+    margin-top: 25px;
+  }
+  .sect-9 .container {
+    padding-top: 0px;
+  }
+  .sect-9 p {
+    margin-top: 0px;
+  }
+  .cont-5 {
+    margin-top: 15px;
+  }
+  .sect-10 {
+    margin-bottom: 20px;
+  }
+  .sect-9 {
+    padding-top: 30px;
+  }
+  .pink {
+    height: auto;
+  }
+  .card {
+    width: 100%;
+  }
+  .section-1 {
+    margin-top: 40px;
+  }
+}

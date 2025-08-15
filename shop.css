@@ -1,0 +1,142 @@
+.shop-banner {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+.shop a {
+  color: black;
+}
+.scrollable-menu {
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+}
+.drop:hover {
+  color: black;
+  text-decoration: none;
+}
+.grid {
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
+}
+.view {
+  font-weight: 600;
+}
+.banner-cont {
+  border-bottom: 1px solid lightgrey;
+}
+.avail {
+  font-size: 17px;
+  font-weight: 600;
+}
+.in-stock {
+  margin-top: 20px;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+.filter {
+  margin-top: 30px;
+  border-right: 1px solid lightgrey;
+}
+.price {
+  width: 120px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 6px;
+}
+.card-title {
+  font-size: 16px;
+  text-align: center;
+}
+.tax {
+  margin-bottom: 30px;
+}
+.card {
+  width: 280px;
+  height: 505px;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  margin-top: 30px;
+}
+.card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 400px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+}
+.cut {
+  text-decoration: line-through;
+}
+.tax {
+  text-align: center;
+  margin-top: -18px;
+}
+.cart {
+  padding: 8px 60px;
+  color: white;
+  font-weight: 700;
+  background-color: rgb(107, 191, 254);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.star {
+  color: gold;
+}
+.msg {
+  color: lightgreen;
+}
+.cart-but {
+  text-align: center;
+}
+.percent span {
+  padding: 0px 10px;
+  background-color: #a0efbb;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .dropdown,
+  .drop,
+  .filter {
+    display: none;
+  }
+  .cart {
+    padding: 8px 25px;
+  }
+  .card {
+    width: 200px;
+  }
+  .card-row {
+    justify-content: space-around !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}

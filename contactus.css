@@ -1,0 +1,113 @@
+.contact-sect {
+  height: 100vh;
+  background-image: url("images/contactus-banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  position: relative;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+}
+.contact-content {
+  position: absolute;
+  z-index: 999;
+  margin-top: 200px;
+  margin-left: 80px;
+}
+.contact-content h1 {
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+}
+.contact-content p {
+  color: white;
+  font-size: 22px;
+  margin-top: 30px;
+}
+.add {
+  margin-top: 30px;
+}
+.address .container-fluid {
+  background-color: #e7f5ff;
+  padding-top: 30px;
+}
+.chat {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.contact-form {
+  background-color: #eefffb;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.name {
+  width: 70%;
+}
+.email-1 {
+  width: 300px;
+}
+.phone-1 {
+  width: 324px;
+}
+.phone {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.email {
+  margin-top: 20px;
+}
+.msg {
+  margin-top: 20px;
+}
+input {
+  background-color: transparent;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 6px;
+}
+label {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+textarea {
+  background-color: transparent;
+  border: 1px solid lightgrey;
+}
+.send {
+  padding: 7px 25px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  margin-top: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contact-content {
+    margin-left: 0px;
+  }
+  .email-phone {
+    flex-direction: column;
+  }
+  .phone {
+    margin-left: 0px;
+  }
+  .name {
+    width: 100%;
+  }
+  .phone-1 {
+    width: 100%;
+  }
+  .email-1 {
+    width: 100%;
+  }
+  .send {
+    width: 100%;
+  }
+  .message {
+    width: 100%;
+  }
+}

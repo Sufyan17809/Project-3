@@ -1,0 +1,261 @@
+.free-del {
+  text-align: center;
+  background-color: #1bbfdd;
+  color: white;
+  padding: 5px;
+}
+.free-del span {
+  font-weight: 500;
+}
+.mic {
+  left: 380px;
+  top: 28px;
+}
+.search-1 {
+  left: 50px;
+  padding: 10px 40px;
+  background-color: #dde6ff;
+}
+.glass {
+  left: 160px;
+  top: 28px;
+}
+.navbar-1 {
+  margin-left: 60px;
+}
+.icon {
+  left: 800px;
+  top: 20px;
+  gap: 20px;
+}
+.navbar-2 {
+  background-color: #04257e;
+}
+.nav-link {
+  color: white;
+  margin: 0px 30px;
+  letter-spacing: 1px;
+}
+.active {
+  color: white !important;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
+.sect-1 {
+  height: 62vh;
+  background-image: url("images/aboutus.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.head-1 {
+  color: white;
+  margin-top: 170px;
+  margin-left: 80px;
+  font-size: 52px;
+  position: absolute;
+}
+.sect-2 {
+  margin-top: 50px;
+}
+.row-1 {
+  background-color: #feffed;
+  align-items: center;
+}
+.story {
+  height: 400px;
+}
+.passion {
+  width: 900px;
+  height: 300px;
+  background-color: #006992;
+  padding: 50px 80px 200px;
+  border-radius: 20px;
+}
+.vision {
+  padding: 50px 80px 100px;
+}
+.passion h3 {
+  color: white;
+}
+.vision h3 {
+  color: #006992;
+}
+.vision p {
+  color: black;
+  width: 450px;
+  /* align-items: center; */
+}
+.passion p {
+  color: white;
+  width: 450px;
+  /* align-items: center; */
+}
+.mission {
+  margin-top: 90px;
+}
+.log-1 {
+  background-color: #e3f2fd;
+  border-radius: 15px;
+  width: 48.666667%;
+  margin: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.log-2 {
+  background-color: #f0fdf4;
+  border-radius: 15px;
+  width: 48.666667%;
+  margin: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.sect-9 {
+  height: auto;
+  background-color: rgb(11 42 103);
+}
+.sect-9 .container {
+  padding-top: 60px;
+  border-bottom: 1px solid white;
+}
+.sect-9 p {
+  color: white;
+}
+.sect-9 h5 {
+  color: white;
+}
+.sect-9 p {
+  margin-top: 40px;
+}
+.sign-up {
+  color: white;
+  font-weight: 700;
+  background-color: #1bbfdd;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 30px;
+}
+.spam {
+  display: flex;
+  flex-direction: column;
+}
+.spam span {
+  color: white;
+  line-height: 40px;
+  cursor: pointer;
+}
+.spam span:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.certificate {
+  width: 50px;
+}
+.comp {
+  font-size: 12px;
+}
+.pay {
+  width: 300px;
+}
+.sect-10 {
+  margin-bottom: 40px;
+}
+@media (max-width: 320px) {
+  .navbar-1 {
+    margin-left: 0px !important;
+  }
+  .passion {
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .passion p {
+    font-size: 13px !important;
+  }
+  .navbar-1 {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .passion p {
+    font-size: 15px !important;
+  }
+}
+
+/* Media Query */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .story {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  .passion {
+    width: 100%;
+    padding: 20px;
+  }
+  .passion p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .vision {
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .vision p {
+    width: 100%;
+  }
+  .mission-img {
+    width: 100%;
+    margin-top: -100px;
+  }
+  .log-1 {
+    width: 90%;
+  }
+  .log-2 {
+    width: 90%;
+  }
+  .pay {
+    width: 190px;
+  }
+  .comp {
+    font-size: 10px;
+  }
+  .row-2 {
+    margin-top: 20px;
+  }
+  .content-1 {
+    margin-top: 20px;
+  }
+  .sect-2 {
+    margin-top: 25px;
+  }
+  .sect-9 .container {
+    padding-top: 0px;
+  }
+  .sect-9 p {
+    margin-top: 0px;
+  }
+  .cont-5 {
+    margin-top: 15px;
+  }
+  .sect-10 {
+    margin-bottom: 20px;
+  }
+  .sect-9 {
+    padding-top: 30px;
+  }
+}

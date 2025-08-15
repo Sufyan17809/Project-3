@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="media-query.css" />
+    <link rel="stylesheet" href="blogs.css" />
+    <link rel="stylesheet" href="shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <p class="free-del">FREE Delivery above <span> ₹499/-</span></p>
+    <nav class="navbar navbar-1 navv">
+      <div class="container-fluid">
+        <img class="logo" src="images/logo.avif" alt="" />
+        <form class="d-flex me-auto" role="search form-1">
+          <input
+            class="form-control me-2 position-relative search-1"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <i
+            class="fa-solid fa-magnifying-glass fa-xl position-absolute glass"
+          ></i>
+          <i class="fa-solid fa-microphone fa-xl position-absolute mic"></i>
+          <!-- <div class="icon d-flex">
+            <i class="fa-solid fa-truck fa-2xl truck"></i>
+            <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+          </div> -->
+        </form>
+      </div>
+    </nav>
+    <nav class="navbar navbar-2 navbar-expand-lg">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">DENTE91 QUIZ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="shop.html"
+                >SHOP</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                SHOP BY CATEGORY
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Mouthwash</a></li>
+                <li><a class="dropdown-item" href="#">Toothpaste</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Kids</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.html">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">KIDS GAME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img class="shop-banner" src="images/shop-banner.webp" alt="" />
+    <section class="shop">
+      <div class="container banner-cont">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Filter</a>
+              <i class="fa-solid fa-sliders"></i>
+              <div class="d-flex ms-4" style="height: 40px">
+                <div class="vr"></div>
+              </div>
+
+              <ul
+                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a class="nav-link drop" href="#">Sort By</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle drop"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Best Selling
+                  </a>
+                  <ul class="dropdown-menu scrollable-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Featured</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Best Selling</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Alphabetically, A-Z</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Alphabetically, Z-A</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Price, low to high</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Price, high to low</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Date, old to new</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Date, new to old</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <span class="view">View as</span>
+                <i class="fa-solid fa-list-ul mt-1 ms-3"></i>
+                <img class="grid ms-3" src="images/grid.png" alt="" />
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 filter">
+            <div class="line-1 d-flex justify-content-between">
+              <span class="avail">Availability</span>
+              <span class="minus"><i class="fa-solid fa-minus fa-xl"></i></span>
+            </div>
+            <div class="in-stock d-flex justify-content-between">
+              <div class="check d-flex">
+                <input class="" type="checkbox" />
+                <p class="ms-3">In stock</p>
+              </div>
+              <p>(14)</p>
+            </div>
+            <div class="out-stock d-flex justify-content-between">
+              <div class="check d-flex">
+                <input class="" type="checkbox" />
+                <p class="ms-3">Out of stock</p>
+              </div>
+              <p>(0)</p>
+            </div>
+            <hr class="hr" />
+            <div class="line-1 d-flex justify-content-between">
+              <span class="avail">Price</span>
+              <span class="minus"><i class="fa-solid fa-minus fa-xl"></i></span>
+            </div>
+            <div class="price-box d-flex justify-content-around">
+              <input class="price" type="tel" placeholder="&#x20B9; 0" />
+              <span class="minus mt-2"><i class="fa-solid fa-minus"></i></span>
+              <input class="price" type="tel" placeholder="&#x20B9; 630" />
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="container">
+              <div class="row card-row justify-content-between">
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row card-row justify-content-between">
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row card-row justify-content-between">
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                  <div class="card">
+                    <img
+                      src="images/img1.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="percent">
+                      <span>5% off</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Dente91 Enamel Pro Toothpaste</h5>
+                      <div class="rating">
+                        <p class="mt-4">
+                          <span
+                            ><i class="fa-solid fa-star star me-1"></i>4.5</span
+                          >
+                          <span class="ms-2"
+                            ><i class="fa-solid fa-message msg me-1"></i>22
+                            Reviews</span
+                          >
+                        </p>
+                      </div>
+                      <p class="text-center">
+                        MRP :
+                        <span class="cut ms-1"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >149</span
+                        >
+                        <span class="og ms-2 fw-bold"
+                          ><i class="fa-solid fa-indian-rupee-sign"></i
+                          >142</span
+                        >
+                      </p>
+                      <p class="tax">Inclusive of all taxes</p>
+                      <div class="cart-but">
+                        <a class="cart"
+                          ><i class="fa-solid fa-plus"></i> Add to Cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sect-9">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <img src="images/footer-logo.webp" alt="" />
+            <p>
+              At Dente91, we’re reshaping oral care by merging nature’s wisdom
+              with modern innovation. As India’s first to offer the power
+              benefits of two evolutionary ingredients–Lactoferrin and nHAP
+              (Nano Hydroxyapatite)–our ethos centers on natural ingredients,
+              efficacy, and sustainability.
+            </p>
+            <h5>Sign up for exclusive deals and offers</h5>
+            <button class="sign-up">Sign up</button>
+            <p>
+              <span class="px-2"
+                ><i class="fa-brands fa-facebook fa-xl"></i
+              ></span>
+              <span class="px-2"
+                ><i class="fa-brands fa-youtube fa-xl"></i
+              ></span>
+              <span class="px-2"
+                ><i class="fa-brands fa-instagram fa-xl"></i
+              ></span>
+            </p>
+          </div>
+          <div class="col-lg-2">
+            <p class="fw-bold">Shop by category</p>
+            <div class="spam">
+              <span>Toothpaste</span>
+              <span>Mouthwash</span>
+              <span>Kids</span>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <p class="fw-bold">Quick links</p>
+            <div class="spam">
+              <span>Terms & Condition</span>
+              <span>Shipping Policy</span>
+              <span>Privacy Policy</span>
+              <span>Return & Refund Policy</span>
+              <span>FAQs</span>
+              <span>Kids Game</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container cont-5">
+        <div class="row justify-content-between">
+          <div class="col-md-2">
+            <p class="">Certificates</p>
+            <img
+              class="certificate"
+              src="images/certificate-logo.avif"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4">
+            <p class="comp">
+              © 2024 dente91.com, All Rights Reserved. Developed By Anvis
+              Digital
+            </p>
+          </div>
+          <div class="col-md-3">
+            <p class="comp text-end">Safe & Secure Payment Processing</p>
+            <img class="pay" src="images/payments.avif" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
